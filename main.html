@@ -7,6 +7,20 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .was-validated .form-control:invalid, .was-validated .form-select:invalid {
+      border-color: #dc3545;
+    }
+    .was-validated .form-control:valid, .was-validated .form-select:valid {
+      border-color: #28a745;
+    }
+    .invalid-feedback {
+      display: none;
+    }
+    .was-validated .invalid-feedback {
+      display: block;
+    }
+  </style>
 </head>
 <body>
   <div class="container">

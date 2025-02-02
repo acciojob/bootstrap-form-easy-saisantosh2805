@@ -28,34 +28,44 @@
 <form class="row g-3">
   <div class="col-md-4">
     <label for="first-name-input" class="form-label">First Name</label>
-    <input type="text" class="form-control" id="inputName4">
+    <input type="text" class="form-control"id="first-name-input" required>
+          <div class="invalid-feedback">Please enter your first name.</div>
+
   </div>
 	 <div class="col-md-4">
     <label for="last-name-input" class="form-label">Last Name</label>
-    <input type="text" class="form-control" id="inputPassword4">
-  </div>
+    <input type="text" class="form-control"  id="last-name-input" required>
+         <div class="invalid-feedback">Please enter your last name.</div>
+
+	 </div>
  
 	 <div class="col-md-4">
     <label for="email-input" class="form-label">Email Address</label>
-    <input type="email" class="form-control" id="inputEmail4">
+    <input type="email" class="form-control" id="email-input" required>
+		  <div class="invalid-feedback">Please enter a valid email.</div>
   </div>
   <div class="col-6">
     <label for="college-input" class="form-label">College</label>
-    <input type="text" class="form-control" id="inputCollege">
+    <input type="text" class="form-control"id="college-input" required>
+  <div class="invalid-feedback">Please enter your college name.</div>
   </div>
   <div class="col-md-3">
     <label for="inputState" class="form-label">Graduation Year</label>
-    <select id="inputState" class="form-select">
+	  
+    <select id="inputState" class="form-select"required>
       <option selected>Choose...</option>
        		<option>2020</option>
 		<option>2021</option>
 		<option>2022</option>
 		<option>2023</option>
     </select>
-  </div>
+          <div class="invalid-feedback">Please select a graduation year.</div>
+</div>
 	<div class="col-3">
     <label for="roll-no-input" class="form-label">Roll no</label>
     <input type="text" class="form-control" id="inputAddress2">
+		        <div class="invalid-feedback">Please enter your roll number.</div>
+
   </div>
   <div class="col-12">
     <div class="form-check">
@@ -63,6 +73,7 @@
       <label class="form-check-label" for="conditions-checkbox">
        Agree to terms and conditions
       </label>
+		          <div class="invalid-feedback">You must agree before submitting.</div>
     </div>
   </div>
   <div class="col-12">
